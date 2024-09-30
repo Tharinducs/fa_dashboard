@@ -1,7 +1,7 @@
 {
   "name": "dashboard",
   "version": "0.1.0",
-  "homepage": "https://Tharinducs.github.io/fa_dashboard",
+  "homepage": "https://tharinducs.github.io/fa_dashboard/",
   "private": true,
   "dependencies": {
     "@ant-design/icons": "^5.5.1",
