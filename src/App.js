@@ -21,7 +21,7 @@ function App() {
         <AppCotainer>
           <Suspense fallback={<Loading open />}>
             <Provider store={store}>
-              <Router>
+              <Router basename='/'>
                 <Routes>
                   <Route path="/" element={<Login />} />
                   <Route path="/dashboard" element={<PrivateRoute><Dashbord /></PrivateRoute>} />
