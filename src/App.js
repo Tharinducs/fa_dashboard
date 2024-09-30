@@ -8,8 +8,6 @@ import { AppCotainer } from './appStyles';
 import { ConfigProvider } from "antd";
 import theme from './styles/antdTheme';
 import PrivateRoute from './components/PrivateRoute/PrivateRoute';
-import { getData } from './utility/localStorageUtility';
-import { isEmpty } from 'lodash';
 
 const Login = retryableLazy(() => import("./modules/login/Login"))
 const Dashbord = retryableLazy(() => import("./modules/dashbord/Dashboard.container"))
